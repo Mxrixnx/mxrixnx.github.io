@@ -1,0 +1,73 @@
+h1{
+  color:#7A8B99
+}
+
+body, html {
+    height: 100%;
+}
+
+body{
+  background-color: #D6EDFF;
+}
+/*This is going to be for the image, also the gradient thing will darken the image to make text easier to read*/
+.hero-image{
+  background-image: linear-gradient(rgba(0, 0, 0.5, 0.5), rgba(0, 0, 0, 0.5)), url("diary.jpg");
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*This is going to be for the text on top of it*/
+.hero-text{
+  text-align: center;
+  /*position: absolute;*/
+  top: 50%
+  left: 50%
+  transform: translate(-50%,-50%);
+  color: #FEFEFE;
+  font-size:large;
+  padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
+
+.random-gif{
+  height: 10px;
+  width: 50%;
+}
+.crys-spanish{
+  position:absolute;
+  left:830px;
+  top: 308px;
+}
+
+.heart{
+  position: absolute;
+  left:1159px;
+  top:308px;
+}
+
+.box{
+  position: absolute;
+  height: 700px;
+  width: 600px;
+  background-color: #91ADC2;
+}
+.box2{
+  position: absolute;
+  height: 600px;
+  width: 500px;
+  background-color: #F0F8FF;
+  top: 40px;
+  left: 50px;
+}
+
+.pizza{
+  position:absolute;
+  left:457px;
+  top:308px;
+}
